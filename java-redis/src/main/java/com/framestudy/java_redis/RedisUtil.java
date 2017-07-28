@@ -46,7 +46,6 @@ public final class RedisUtil {
         	//maxActive  ==>  maxTotal
         	//maxWait    ==>  maxWaitMillis
         	
-        	
             JedisPoolConfig config = new JedisPoolConfig();
             config.setMaxTotal(MAX_ACTIVE);
             config.setMaxIdle(MAX_IDLE);
